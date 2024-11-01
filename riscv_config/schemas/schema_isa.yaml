@@ -5371,7 +5371,7 @@ hart_schema:
                       - unchanged
             accessible:
               type: boolean
-              default: true
+              default: false
               check_with: rv32_check
           default: {accessible: False}
         rv64:
@@ -5395,7 +5395,7 @@ hart_schema:
                     wr_illegal:
                       - Unchanged
             accessible:
-              default: true
+              default: false
               check_with: rv64_check
           default: {accessible: False}
     mcycleh:
@@ -5431,7 +5431,7 @@ hart_schema:
                       - unchanged
             accessible:
               type: boolean
-              default: true
+              default: false
               check_with: rv32_check
           default: {accessible: False}
         rv64:
@@ -5471,7 +5471,7 @@ hart_schema:
                       - unchanged
             accessible:
               type: boolean
-              default: true
+              default: false
               check_with: rv32_check
           default: {accessible: False}
         rv64:
@@ -5495,7 +5495,7 @@ hart_schema:
                     wr_illegal:
                       - Unchanged
             accessible:
-              default: true
+              default: false
               check_with: rv64_check
           default: {accessible: False}
     minstreth: 
@@ -5531,7 +5531,7 @@ hart_schema:
                       - unchanged
             accessible:
               type: boolean
-              default: true
+              default: false
               check_with: rv32_check
           default: {accessible: False}
         rv64:
