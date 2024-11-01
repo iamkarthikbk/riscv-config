@@ -6630,7 +6630,7 @@ hart_schema:
               type: dict
               schema: {ro_variable: {type: boolean}}
               default: {ro_variable: true}
-            accessible: {type: boolean, default: true, check_with: [rv32_check]}
+            accessible: {type: boolean, default: false, check_with: [rv32_check]}
           check_with: u_check
           default: {accessible: False}
         rv64:
@@ -6645,7 +6645,7 @@ hart_schema:
               type: dict              
               schema: {ro_variable: {type: boolean}}
               default: {ro_variable: true}
-            accessible: {default: true, check_with: [rv64_check]}
+            accessible: {default: false, check_with: [rv64_check]}
           check_with: u_check
           default: {accessible: False}    
     timeh:
@@ -6669,7 +6669,7 @@ hart_schema:
               type: dict
               schema: {ro_variable: {type: boolean}}
               default: { ro_variable: true}
-            accessible: {type: boolean,  default: true,  check_with: [rv32_check]}
+            accessible: {type: boolean,  default: false,  check_with: [rv32_check]}
           check_with: u_check
           default: {accessible: False}
         rv64:
